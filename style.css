@@ -17,7 +17,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10px;
+    padding: 10px 10px;
     background: transparent;
     z-index: 100;
     align-items: center;
@@ -453,4 +453,67 @@ input{
     align-items: center;
     text-decoration: none;
 }
+@media only screen and (max-width: 768px) {
+    .heading {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .navbar {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .logo,
+    .navbar a {
+      margin: 10px;
+    }
+  
+    .container1 {
+      margin-top: 100px;
+    }
+  
+    .image img {
+      margin-top: 50px;
+    }
+  
+    #about,
+    #skills,
+    #projects,
+    #last {
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+  
+    .attach,
+    .links,
+    .text,
+    .bx-download {
+      font-size: 25px;
+    }
+  
+    .btn {
+      width: 60%;
+      margin-bottom: 20px;
+    }
+  
+    #skills,
+    #projects {
+      width: 90%;
+      margin: 20px auto;
+    }
+  
+    #skills li {
+      padding: 10px;
+    }
+  
+    #last {
+      margin-top: 100px;
+    }
+  
+    input {
+      width: 80%;
+      margin-left: 0;
+    }
+  }
 
