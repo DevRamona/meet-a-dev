@@ -22,6 +22,7 @@ body{
     z-index: 100;
     align-items: center;
     text-decoration: none;
+    background: white;
 }
 .logo{
     position: relative;
